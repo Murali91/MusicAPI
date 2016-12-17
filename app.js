@@ -2,7 +2,7 @@ var restify = require('restify');
 var server = restify.createServer();
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://murali:murali@ds133398.mlab.com:33398/nodeuser');
+mongoose.connect('mongodb://xxxxxxxxxxxxxx'); // You have to paste your mongoDB connector here
 
 
 //Perfroms the authorization, IP Whitelisting and API throttling
